@@ -1,0 +1,48 @@
+{
+  "name": "fis3-deploy-i18n",
+  "version": "0.0.1",
+  "description": "fis3的多语插件，不限于html或者ejs，可适用于所有类型文件",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel --copy-files --out-dir dist --ignore **/__mock__,*.test.js src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiuYueKai/fis3-deploy-i18n.git"
+  },
+  "keywords": [
+    "fis3",
+    "i18n",
+    "language"
+  ],
+  "author": "liuyuekai (liuyuekainihao@163.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiuYueKai/fis3-deploy-i18n/issues"
+  },
+  "homepage": "https://github.com/LiuYueKai/fis3-deploy-i18n#readme",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "is-glob": "^4.0.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "cross-env": "^5.0.5",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0",
+    "jest": "^20.0.4",
+    "rimraf": "^2.6.1",
+    "semantic-release": "^7.0.2"
+  }
+}

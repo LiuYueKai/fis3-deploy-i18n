@@ -1,0 +1,7 @@
+src/**/*.test.js
+examples/
+test/
+.git/
+.gitattributes
+.gitignore
+.travis.yml
